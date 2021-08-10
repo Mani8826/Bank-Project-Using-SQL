@@ -438,7 +438,7 @@ select * from Account
 select * from AccountType
 
 --------------------------------------------------------------------------------------------
-Question: 4 Create a view to get any particular user’s login and password using AccountId?
+Question: 4 Create a view to get any particular userÂ’s login and password using AccountId?
 Answer:4
 
 use [Sqlexam]
@@ -455,26 +455,7 @@ where lastName like '%ith';
 select *
 from UserAccountS
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-------------------------------------------------------------------------------------------------------------------------------
 
 select *
 from UserAccountS
@@ -566,7 +547,7 @@ select * from [dbo].[UserLogins]
 
  go
  --------------------------------------------------------------------------------------------
-Question :5 Create a view to get all customers’ overdraft amount ?
+Question :5 Create a view to get all customersÂ’ overdraft amount ?
 Answer:5
 create view customeroverdrafftamount 
 as
@@ -584,7 +565,7 @@ Select* from [dbo].[Customer-Account]
 select * from Customer
 go
 -------------------------------------------------------------------------------------------------
-Question:6 Create a stored procedure to add “User_” as a prefix to everyone’s login (username)?
+Question:6 Create a stored procedure to add Â“User_Â” as a prefix to everyoneÂ’s login (username)?
 Answer :6
 create proc prefixusername
 as
@@ -593,7 +574,7 @@ exec prefixusername
 
 go
 -----------------------------------------------------------------------------------------------------
-Question: 7 Create a stored procedure that accepts AccountId as a parameter and returns customer’s full name?
+Question: 7 Create a stored procedure that accepts AccountId as a parameter and returns customerÂ’s full name?
 Answer:7
 create proc  UdateFullName @AccountID int, @Fullname nvarchar(100) output
 as
